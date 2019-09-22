@@ -1,0 +1,42 @@
+ul {
+    list-style-type: none;
+   }
+  
+.list-overflow-container {
+    border-radius: 4px;
+    overflow-y: scroll;
+  }
+  
+  .list-overflow-container ul {
+    margin: 0;
+  }
+  
+  .list-overflow-container li {
+    border-radius: 0px;
+    border-left: none;
+    border-right: none;
+  }
+  
+  /* .list-overflow-container li * {
+    /* cursor: pointer; */
+   
+  
+  .list-overflow-container li a {
+    color: #2A878C;
+  }
+  
+  .list-overflow-container li:first-child {
+    border-top: none;
+  }
+  
+  .list-overflow-container li:last-child {
+    border-bottom: none;
+  }
+  
+  .list-group-item{
+border:1 px solid lightgrey;
+box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+
+      padding:60px;
+  }
+  
